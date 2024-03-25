@@ -36,3 +36,5 @@ function initializeBookList(){
         <h3>${book.name}</h3>
         <img src="${book.FeaturedImage}" alt="${book.name} Image" width="100">
         <a href="details.html?id=${book.id}">View</a>
+        `;
+        bookList.appendChild(bookElement);
