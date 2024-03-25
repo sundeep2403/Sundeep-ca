@@ -57,3 +57,7 @@ function showDetails(){
 
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" value="1" required><br>
+
+            <button type="submit">Buy Now</button>
+        </form>
+    `;
