@@ -38,3 +38,6 @@ function showDetails(){
     var detailsContent = document.getElementbyId("book-details");
 
     detailsContent.innerHTML = '';
+
+    detailsContent.innerHTML = `
+        <h2><b>${selectedBook.Name}</b></h2>
