@@ -61,3 +61,5 @@ function showDetails(){
             <button type="submit">Buy Now</button>
         </form>
     `;
+
+    detailsContent.innerHTML += detailsHTML;
