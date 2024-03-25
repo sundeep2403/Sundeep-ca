@@ -13,3 +13,4 @@ function searchBooks(events){
 }
       
 var searchInput = document.getElementbyId('searchInput');
+searchInput.addEventListener('input',searchBooks);
