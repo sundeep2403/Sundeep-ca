@@ -27,3 +27,4 @@ var books = [
       Description: "We assume that smarter people are less prone to error. But greater education and expertise can often amplify our mistakes while rendering us blind to our biases. This is the intelligence trap. Drawing on the latest behavioural science and historical examples from Socrates to Benjamin Franklin, David Robson demonstrates how to apply our intelligence more wisely; identify bias and enhance our 'rationality quotient'; read and regulate our emotions; fine-tune our intuition; navigate ambiguity and uncertainty; and think more flexibly about seemingly intractable problems.",
       FeaturedImage: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ4tm2JGk1-HO3AqRFOE23W3vykDsS2zdiZgqAbYbpHg9YkP2vVl2Rw2kSvpAsoMDJAZUudKAwWw3mkWr_IdeqGQYdb5Uojssm2Se5ny_9kOLZA8knDrVGniBSPhFF8UKHS_rb4QX8&usqp=CAc' },
 ];
+function getBookIdFromUrl(){
