@@ -51,3 +51,5 @@ function showDetails(){
         <form id="buy-book">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
