@@ -28,3 +28,5 @@ var books = [
       FeaturedImage: 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ4tm2JGk1-HO3AqRFOE23W3vykDsS2zdiZgqAbYbpHg9YkP2vVl2Rw2kSvpAsoMDJAZUudKAwWw3mkWr_IdeqGQYdb5Uojssm2Se5ny_9kOLZA8knDrVGniBSPhFF8UKHS_rb4QX8&usqp=CAc' },
 ];
 function getBookIdFromUrl(){
+    var urlParams = new URLSearchParams(window.location.search);
+    return parseInt(urlParams.get('id'))
