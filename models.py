@@ -8,3 +8,5 @@ class User(UserMixin):
     self.username=username
     self.email=email
     self.password_hash=generate_password_hash(password)
+
+  def verify_password(self, password):
