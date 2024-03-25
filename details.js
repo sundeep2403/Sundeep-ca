@@ -70,3 +70,5 @@ function showDetails(){
         handleBuySubmit(selectedBook);
     });
 }
+
+document.addEventListener("DOMContentLoaded", showDetails);
