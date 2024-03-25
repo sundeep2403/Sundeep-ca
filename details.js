@@ -54,3 +54,5 @@ function showDetails(){
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required><br>
+
+            <label for="quantity">Quantity:</label>
