@@ -5,4 +5,5 @@ function searchBooks(events){
     var bookTest = book.innerText.toLowerCase();
 
     if(bookText.indexOf(searchStr) === -1) {
+      book.style.display = 'none';
       
