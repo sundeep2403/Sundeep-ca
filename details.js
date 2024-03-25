@@ -41,3 +41,5 @@ function showDetails(){
 
     detailsContent.innerHTML = `
         <h2><b>${selectedBook.Name}</b></h2>
+        <p><b>Price:</b>${selectedBook.Price}</p>
+        <p><b>Description:</b>$selectedBook.Description}</p>
