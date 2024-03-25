@@ -12,3 +12,4 @@ function searchBooks(events){
   });
 }
       
+var searchInput = document.getElementbyId('searchInput');
