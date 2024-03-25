@@ -66,3 +66,7 @@ function showDetails(){
 
     var buyBookForm = document.getElementById("buy-book");
     buyBookForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+        handleBuySubmit(selectedBook);
+    });
+}
