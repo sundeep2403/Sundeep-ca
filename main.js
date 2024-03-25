@@ -26,3 +26,7 @@ var books = [
     {id: 8, name: "CryptoCurrency",FeaturedImage:"https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwijvKbfhJCFAxUbk1AGHchDATcYABAMGgJkZw&ase=2&gclid=Cj0KCQjwwYSwBhDcARIsAOyL0fhQbxamRHlwyWnw3m0M1D2SYKMfbudlmtc0GKRyy9xaefbTvP1PidoaAkjHEALw_wcB&ohost=www.google.co.in&cid=CAESVeD23_RhMnTdEqR7DYAC5FIBt7xU_g8a6KkzhAsKBpaRR4NT6aqsAa0vy-nr19QxZxnQtxaVfbffX1Gem8ep6ufM6KPMlCeDwp7IWzJR6iWKigoskwU&sig=AOD64_1SLIYFXp_u3mgRSC3WYA3SOj35Cg&ctype=5&q=&nis=4&ved=2ahUKEwjS3aDfhJCFAxVUQEEAHRbXDtYQ9aACKAB6BAgIEF0&adurl="},
     {id: 9, name: "The Intelligence Trap",FeaturedImage:"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ4tm2JGk1-HO3AqRFOE23W3vykDsS2zdiZgqAbYbpHg9YkP2vVl2Rw2kSvpAsoMDJAZUudKAwWw3mkWr_IdeqGQYdb5Uojssm2Se5ny_9kOLZA8knDrVGniBSPhFF8UKHS_rb4QX8&usqp=CAc"},
 ];
+
+function initializeBookList(){
+  var bookList = document.getElementbyId("book-list")
+  
