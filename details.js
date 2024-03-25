@@ -74,3 +74,4 @@ function showDetails(){
 document.addEventListener("DOMContentLoaded", showDetails);
 
 function handleBuySubmit(book) {
+    var name = document.getElementById("name").value;
