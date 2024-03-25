@@ -3,3 +3,6 @@ function searchBooks(events){
 
   document.querySelectorAll('.container #book-list div').forEach(book) => {
     var bookTest = book.innerText.toLowerCase();
+
+    if(bookText.indexOf(searchStr) === -1) {
+      
