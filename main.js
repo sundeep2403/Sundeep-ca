@@ -6,4 +6,7 @@ function searchBooks(events){
 
     if(bookText.indexOf(searchStr) === -1) {
       book.style.display = 'none';
+    }else{
+      book.style.display = 'block';
+    }
       
