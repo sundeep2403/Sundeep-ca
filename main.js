@@ -38,3 +38,6 @@ function initializeBookList(){
         <a href="details.html?id=${book.id}">View</a>
         `;
         bookList.appendChild(bookElement);
+  });
+
+  ment.addEventListener("DOMContentLoaded", initializeBookList);
