@@ -33,3 +33,4 @@ function getBookIdFromUrl(){
 }
 
 function showDetails(){
+    var bookId = getBookIdfromUrl();
