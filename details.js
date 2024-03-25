@@ -48,3 +48,4 @@ function showDetails(){
 
     var detailsHTML = `
         <h3>Buy Book</h3>
+        <form id="buy-book">
