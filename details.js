@@ -65,3 +65,4 @@ function showDetails(){
     detailsContent.innerHTML += detailsHTML;
 
     var buyBookForm = document.getElementById("buy-book");
+    buyBookForm.addEventListener("submit", function (event) {
