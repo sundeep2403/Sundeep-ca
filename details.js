@@ -44,3 +44,7 @@ function showDetails(){
         <p><b>Price:</b>${selectedBook.Price}</p>
         <p><b>Description:</b>$selectedBook.Description}</p>
         <img src="${selectedBook.FeaturedImage}" alt="${selectedBook.Name} Image" width="500">
+    `;
+
+    var detailsHTML = `
+        <h3>Buy Book</h3>
