@@ -35,3 +35,4 @@ function getBookIdFromUrl(){
 function showDetails(){
     var bookId = getBookIdfromUrl();
     var selectedBook = books.find(book => book.id === bookId);
+    var detailsContent = document.getElementbyId("book-details");
