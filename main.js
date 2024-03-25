@@ -29,4 +29,7 @@ var books = [
 
 function initializeBookList(){
   var bookList = document.getElementbyId("book-list")
+
+  books.forEach(book => {
+    var bookElement = document.createElement("div");
   
