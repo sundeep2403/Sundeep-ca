@@ -1,5 +1,21 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en">
 <head>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./style.css">
+    <title>Book List</title>
 </head>
+<body>
+    <h1><center>Book List</center></h1>
+    <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search books...">
+        <button onclick="searchBooks(event)">Search</button>
+    </div>
+    <div class="container">
+
+        <section id="book-list"></section>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
