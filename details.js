@@ -84,4 +84,7 @@ function handleBuySubmit(book) {
         Email: ${email}
         Quantity: ${quantity}
     `);
+
+    alert("Added to Cart Successfully");
+}
     
