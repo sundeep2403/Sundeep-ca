@@ -50,3 +50,4 @@ function showDetails(){
         <h3>Buy Book</h3>
         <form id="buy-book">
             <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
