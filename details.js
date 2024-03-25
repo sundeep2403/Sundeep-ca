@@ -30,3 +30,6 @@ var books = [
 function getBookIdFromUrl(){
     var urlParams = new URLSearchParams(window.location.search);
     return parseInt(urlParams.get('id'))
+}
+
+function showDetails(){
