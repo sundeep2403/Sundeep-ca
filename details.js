@@ -56,3 +56,4 @@ function showDetails(){
             <input type="email" id="email" name="email" required><br>
 
             <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1" required><br>
