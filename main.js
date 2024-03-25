@@ -34,4 +34,4 @@ function initializeBookList(){
     var bookElement = document.createElement("div");
     bookElement.innerHTML = `
         <h3>${book.name}</h3>
-        
+        <img src="${book.FeaturedImage}" alt="${book.name} Image" width="100">
