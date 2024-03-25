@@ -9,4 +9,6 @@ function searchBooks(events){
     }else{
       book.style.display = 'block';
     }
+  });
+}
       
