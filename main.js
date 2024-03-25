@@ -32,4 +32,6 @@ function initializeBookList(){
 
   books.forEach(book => {
     var bookElement = document.createElement("div");
-  
+    bookElement.innerHTML = `
+        <h3>${book.name}</h3>
+        
