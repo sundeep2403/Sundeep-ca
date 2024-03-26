@@ -18,3 +18,6 @@ def login():
         else:
             pass
     return render_template('login.html', form=form)
+
+@loginrequired
+def logout():
