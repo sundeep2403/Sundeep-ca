@@ -11,3 +11,4 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = users.get(form.username.data)
+        if user and user.verify_password(form.password.data):
