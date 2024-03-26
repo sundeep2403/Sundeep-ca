@@ -9,3 +9,4 @@ users = {
 from forms import LoginForm
 def login():
     form=LoginForm()
+    if form.validate_on_submit():
