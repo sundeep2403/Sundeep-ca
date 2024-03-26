@@ -27,3 +27,5 @@ if __name__ == '__main__':
     app = Flask(__name__)
 
     app.config['SECRET_KEY'] = 'your_secret_key'
+
+    login_manager = LoginManager()
