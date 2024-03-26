@@ -5,3 +5,7 @@ from models import User
 users = {
     "admin": User(1, "admin", "admin@example.com", "password")
 }
+
+from forms import LoginForm
+def login():
+    
