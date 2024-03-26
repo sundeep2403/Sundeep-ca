@@ -14,3 +14,7 @@ def login():
         if user and user.verify_password(form.password.data):
             login_user(user)
             return redirect(url_for('index'))
+
+        else:
+            pass
+    return render_template('login.html', form=form)
