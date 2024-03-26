@@ -12,3 +12,5 @@ def login():
     if form.validate_on_submit():
         user = users.get(form.username.data)
         if user and user.verify_password(form.password.data):
+            login_user(user)
+            return redirect(url_for('index'))
