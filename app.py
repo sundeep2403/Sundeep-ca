@@ -8,4 +8,4 @@ users = {
 
 from forms import LoginForm
 def login():
-    
+    form=LoginForm()
