@@ -6,3 +6,6 @@ from forms import LoginForm
 users = {
     "admin": User(1, "admin", "admin@example.com", "password")
 }
+
+def login():
+    form = LoginForm()
